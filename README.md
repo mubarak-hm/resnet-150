@@ -1,46 +1,9 @@
-# Brain Tumor Classification Model  using ResNet-152
+# Brain Tumor Classification Model using Transfer Learning with ResNet-152
 
 This repository contains the code for a brain tumor classification model built using the ResNet-152 architecture in PyTorch. The model is trained to classify different types of brain tumors from MRI images.
 
-## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Architecture](#model-architecture)
-- [Training: A Novel Approach](#training-a-novel-approach)
-- [Evaluation](#evaluation)
-- [Results](#results)
-
-## Project Overview
-
-This project aims to accurately classify various types of brain tumors using a deep learning approach. It leverages transfer learning with a pre-trained ResNet-152 model, which is fine-tuned on a specific dataset of brain tumor MRI images. The goal is to achieve high accuracy in classifying up to 31 different classes of brain abnormalities.
-
-## Dataset
-
-The model is trained on a collection of datasets which were augmented into a one huge chunk  Dataset,to replicate , you can add your own dataset pertinent to your own classification problem  and place in the appropriate directory. The dataset is organized into folders, with each folder representing a different class of brain tumor.
-
-The notebook preprocesses this data by splitting it into training and validation sets with an 80/20 ratio.
-
-## Installation
-
-To run this project, you need to have Python and several libraries installed. You can install the necessary packages using pip:
-
-```bash
-pip install torch torchvision matplotlib numpy scikit-learn seaborn
-```
-
-## Usage
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   ```
-
-2. **Download the dataset:** Make sure to download the NINS Dataset and place it in the designated path as specified in the notebook.
-
-3. **Run the Jupyter Notebook:** Open and run the `Resnet-150-brain-tumor.ipynb` notebook to train and evaluate the model.
+The model is trained on a collection of datasets which were augmented into a one huge chunk  Dataset,to replicate , you can add your own dataset pertinent to your own classification problem  and place in the appropriate directory in google colab. The dataset is organized into folders, with each folder representing a different class of brain tumor.
 
 ## Model Architecture
 
